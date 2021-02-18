@@ -47,7 +47,7 @@
      lcd.setCursor(0, 1);
      Serial.println("Alcohol NOT Detected");   
      lcd.print("Engine ON");  
-     delay(300); 
+     delay(1000); 
      lcd.clear();
       }
     else  //greater that 800 
